@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    float c , f ;
+
+    printf("enter your temp in celsius : ");
+    scanf("%f" , &c);
+    f = 1.8*c + 32;
+    printf("your temp in fahrenhits : %f" , f );
+
+
+
+
+
+return 0;
+
+
+}
+
